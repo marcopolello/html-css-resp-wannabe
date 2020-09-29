@@ -71,3 +71,41 @@ img {
 .clear {
   clear: both;
 }
+
+/********************************************************
+*************MODIFICHE CSS MEDIA QUERY*******************
+*********************************************************/
+@media screen and (max-width: 420px) {
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 95vw;
+  float: none;
+}
+#lezioni, #steps, #why {
+  text-align: left;
+}
+#lezioni .row img {
+  margin-left: 0;
+}
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: none;
+  width: 95vw;
+}
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  width: 95vw;
+  margin-top: 0;
+}
+img {
+  height: 100px;
+}
+#why .row img{
+  padding:15px;
+}
+h1{
+  max-width: 95vw;
+}
+}
