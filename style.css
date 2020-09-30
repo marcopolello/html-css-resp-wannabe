@@ -81,12 +81,6 @@ img {
   width: 95vw;
   float: none;
 }
-#lezioni, #steps, #why {
-  text-align: left;
-}
-#lezioni .row img {
-  margin-left: 0;
-}
 #steps .row>.left,
 #steps .row>.central,
 #steps .row>.right {
@@ -108,4 +102,9 @@ img {
 h1{
   max-width: 95vw;
 }
+.row{
+  width: 100%;
+  margin-top: 0;
+}
+
 }
