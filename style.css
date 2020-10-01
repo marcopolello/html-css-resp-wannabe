@@ -49,6 +49,7 @@
 
 #why .row img {
   background-color: #428bca;
+  background-size: cover;
   border-radius: 50%;
   padding: 30px
 }
@@ -62,6 +63,7 @@
 
 .container.grey {
   background-color: #f9f9f9;
+  background-size: cover;
 }
 
 img {
